@@ -1848,17 +1848,38 @@ textarea.w-select {
   --background-color--background-tertiary: var(--base-brand--40);
   --background-color--background-alternate: var(--base-gray--0-white);
   --background-color--background-warning: var(--base-warning--50);
-  --border-color--border-secondary: var(--base-brand--60);
-  --border-color--border-alternate: var(--base-gray--80);
-  --link-color--link-secondary: var(--base-gray--100-black);
-  --link-color--link-alternate: var(--base-gray--0-white);
-  --text-color--text-warning: var(--base-warning--50);
   --base-brand--20: #c7d2fe;
   --base-brand--30: #a5b4fc;
   --base-brand--40: #818cf8;
   --base-brand--50: #6366f1;
+  --base-brand--70: #4338ca;
+  --base-brand--80: #3730a3;
+  --base-brand--90: #312e81;
+  --base-destructive--30: #fda4af;
+  --base-destructive--40: #fb7185;
+  --base-destructive--60: #e11d48;
+  --base-destructive--80: #9f1239;
+  --base-destructive--70: #be123c;
+  --base-destructive--90: #881337;
   --base-gray--40: #94a3b8;
   --base-gray--50: #64748b;
+  --base-gray--90: #0f172a;
+  --base-success--10: #dcfce7;
+  --base-success--40: #4ade80;
+  --base-success--60: #16a34a;
+  --base-success--70: #166534;
+  --base-success--80: #14532d;
+  --base-success--90: #14532d;
+  --base-warning--30: #fcd34d;
+  --base-warning--40: #fbbf24;
+  --base-warning--60: #d97706;
+  --base-warning--70: #b45309;
+  --base-warning--80: #92400e;
+  --base-warning--90: #78350f;
+  --border-color--border-secondary: var(--base-brand--60);
+  --border-color--border-alternate: var(--base-gray--80);
+  --link-color--link-secondary: var(--base-gray--100-black);
+  --link-color--link-alternate: var(--base-gray--0-white);
   --system--success-green: var(--base-success--50);
   --system--success-green-dark: var(--base-success--90);
   --system--warning-yellow: var(--base-warning--50);
@@ -1866,28 +1887,7 @@ textarea.w-select {
   --system--error-red: var(--base-destructive--50);
   --system--error-red-dark: var(--base-destructive--90);
   --system--focus-state: var(--base-brand--60);
-  --base-brand--70: #4338ca;
-  --base-brand--80: #3730a3;
-  --base-brand--90: #312e81;
-  --base-gray--90: #0f172a;
-  --base-destructive--30: #fda4af;
-  --base-destructive--40: #fb7185;
-  --base-destructive--60: #e11d48;
-  --base-destructive--80: #9f1239;
-  --base-destructive--70: #be123c;
-  --base-destructive--90: #881337;
-  --base-warning--30: #fcd34d;
-  --base-warning--40: #fbbf24;
-  --base-warning--60: #d97706;
-  --base-warning--70: #b45309;
-  --base-warning--80: #92400e;
-  --base-warning--90: #78350f;
-  --base-success--10: #dcfce7;
-  --base-success--40: #4ade80;
-  --base-success--60: #16a34a;
-  --base-success--70: #166534;
-  --base-success--80: #14532d;
-  --base-success--90: #14532d;
+  --text-color--text-warning: var(--base-warning--50);
 }
 body {
   color: var(--base-gray--80);
@@ -4135,7 +4135,7 @@ figcaption {
 }
 @font-face {
   font-family: "Plusjakartasans";
-  src: url("https://uploads-ssl.webflow.com/662c8f5868c6566dc279808a/662c9110812f88d5e662fbf7_PlusJakartaSans-Regular.ttf")
+  src: url("https://cdn.prod.website-files.com/662c8f5868c6566dc279808a/662c9110812f88d5e662fbf7_PlusJakartaSans-Regular.ttf")
     format("truetype");
   font-weight: 400;
   font-style: normal;
@@ -4143,7 +4143,7 @@ figcaption {
 }
 @font-face {
   font-family: "Plusjakartasans";
-  src: url("https://uploads-ssl.webflow.com/662c8f5868c6566dc279808a/662c9109a85c977101df1ff8_PlusJakartaSans-Medium.ttf")
+  src: url("https://cdn.prod.website-files.com/662c8f5868c6566dc279808a/662c9109a85c977101df1ff8_PlusJakartaSans-Medium.ttf")
     format("truetype");
   font-weight: 500;
   font-style: normal;
@@ -4151,7 +4151,7 @@ figcaption {
 }
 @font-face {
   font-family: "Plusjakartasans";
-  src: url("https://uploads-ssl.webflow.com/662c8f5868c6566dc279808a/662c9121cb3e06695e872767_PlusJakartaSans-SemiBold.ttf")
+  src: url("https://cdn.prod.website-files.com/662c8f5868c6566dc279808a/662c9121cb3e06695e872767_PlusJakartaSans-SemiBold.ttf")
     format("truetype");
   font-weight: 600;
   font-style: normal;
@@ -4159,7 +4159,7 @@ figcaption {
 }
 @font-face {
   font-family: "Plusjakartasans";
-  src: url("https://uploads-ssl.webflow.com/662c8f5868c6566dc279808a/662c91268a72a974e5244329_PlusJakartaSans-Bold.ttf")
+  src: url("https://cdn.prod.website-files.com/662c8f5868c6566dc279808a/662c91268a72a974e5244329_PlusJakartaSans-Bold.ttf")
     format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -4167,7 +4167,7 @@ figcaption {
 }
 @font-face {
   font-family: "Plusjakartasans";
-  src: url("https://uploads-ssl.webflow.com/662c8f5868c6566dc279808a/662c91291110cb1846e0fab3_PlusJakartaSans-ExtraBold.ttf")
+  src: url("https://cdn.prod.website-files.com/662c8f5868c6566dc279808a/662c91291110cb1846e0fab3_PlusJakartaSans-ExtraBold.ttf")
     format("truetype");
   font-weight: 800;
   font-style: normal;
